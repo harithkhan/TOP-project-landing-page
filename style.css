@@ -169,6 +169,7 @@ body {
     padding: 50px 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .action-header {
@@ -182,7 +183,7 @@ body {
 }
 
 .action-button {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 4px;
     border-color: white;
@@ -191,6 +192,7 @@ body {
     cursor: pointer;
     color: white;
     background: none;
+    padding: 10px 36px;
 }
 
 /* Footer Styling */
