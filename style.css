@@ -142,18 +142,19 @@ body {
 
 .quote-container {
     background: #E5E7EB;
-    font-size: 36px;
-    padding: 200px;
+    padding: 100px 450px;
 }
 
 .quote-container .quote {
     font-style: italic;
+    font-size: 36px;
     font-weight: 100;
 }
 
 .quote-container .author {
     text-align: right;
     font-weight: bold;
+    font-size: 28px;
 }
 
 /* Action Styling */
