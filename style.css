@@ -12,7 +12,7 @@ body {
     background: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 16px 250px;
+    padding: 16px 300px;
 }
 
 .header-logo {
@@ -45,7 +45,7 @@ body {
     background: #1F2937;
     align-items: start;
     justify-content: space-between;
-    padding: 100px 250px;
+    padding: 100px 300px;
 }
 
 .hero-left {
@@ -160,7 +160,7 @@ body {
 /* Action Styling */
 
 .action-container {
-    padding: 100px 200px;
+    padding: 100px 300px;
 }
 
 .action-box {
