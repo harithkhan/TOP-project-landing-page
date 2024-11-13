@@ -12,7 +12,7 @@ body {
     background: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 16px 200px;
+    padding: 16px 250px;
 }
 
 .header-logo {
@@ -45,7 +45,7 @@ body {
     background: #1F2937;
     align-items: start;
     justify-content: space-between;
-    padding: 100px 200px;
+    padding: 100px 250px;
 }
 
 .hero-left {
@@ -79,9 +79,9 @@ body {
     font-weight: bold;
     background: #3882F6;
     color: #E5E7EB;
-    border-radius: 5px;
+    border-radius: 8px;
     border-style: none;
-    padding: 6px 26px;
+    padding: 10px 36px;
     cursor: pointer;
 }
 
