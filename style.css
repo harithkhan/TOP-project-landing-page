@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    margin: 0;
 }
 
 /* Header Styling */
@@ -11,7 +12,7 @@ body {
     background: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 16px 100px;
+    padding: 16px 200px;
 }
 
 .header-logo {
@@ -41,15 +42,24 @@ body {
 
 .hero {
     display: flex;
-    gap: 100px;
     background: #1F2937;
-    align-items: center;
-    padding: 100px;
+    align-items: start;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+
+.hero-left {
+    width: 500px;
 }
 
 .hero-right {
     background: #6d747d;
-    padding: 100px;
+    padding: 100px 50px;
+    width: 400px;
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-main {
@@ -61,7 +71,7 @@ body {
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 .hero-button {
@@ -77,6 +87,7 @@ body {
 
 .hero-image {
     color: #F9FaF8;
+    font-size: 18px;
 }
 
 /* Information Styling */
